@@ -29,9 +29,3 @@ Florida Agriculture: Costa Rica Transition Ready
 
 );
 }
-
-        
-      
-    
-  );
-}
