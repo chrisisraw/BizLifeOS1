@@ -1,15 +1,14 @@
 export const metadata = {
-  title: 'AgensI | Life Biz OS',
+title: 'AgensI | Life Biz OS',
 }
-
 export default function RootLayout({
-  children,
+children,
 }: {
-  children: React.ReactNode
+children: React.ReactNode
 }) {
-  return (
-    
-      {children}
-    
-  )
+return (
+
+{children}
+
+)
 }
