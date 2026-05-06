@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgensI | Life Biz OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { background-color: #000; color: #0f0; font-family: 'Courier New', Courier, monospace; }
+        .crt-border { border: 1px solid #0f0; box-shadow: 0 0 10px #0f0; }
+    </style>
+</head>
+<body class="p-10">
+    <div class="max-w-4xl mx-auto crt-border p-8 rounded-lg">
+        <header class="border-b border-green-500 pb-6 mb-8 flex justify-between items-center">
+            <div>
+                <h1 class="text-3xl font-bold uppercase tracking-widest">AgensI: MASTER KERNEL v1.0</h1>
+                <p class="mt-2 text-sm opacity-80">SYSTEM STATUS: <span class="animate-pulse">OPTIMIZED</span></p>
+            </div>
+            <i data-lucide="activity" class="w-10 h-10"></i>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="border border-green-500 p-4 hover:bg-green-900/20 transition-all">
+                <div class="flex items-center gap-3 mb-4">
+                    <i data-lucide="terminal"></i>
+                    <h2 class="font-bold">Project Control</h2>
+                </div>
+                <ul class="text-xs space-y-2">
+                    <li>- 16 Active Writing Projects</li>
+                    <li>- Priority: S2s (Blink Twice)</li>
+                    <li>- Project 11 & 12: Queued</li>
+                </ul>
+            </div>
+
+            <div class="border border-green-500 p-4 hover:bg-green-900/20 transition-all">
+                <div class="flex items-center gap-3 mb-4">
+                    <i data-lucide="zap"></i>
+                    <h2 class="font-bold">Automation Pulse</h2>
+                </div>
+                <ul class="text-xs space-y-2">
+                    <li>- AgensI Agency: ACTIVE</li>
+                    <li>- Control AI Delete: 32 Eps</li>
+                    <li>- Arbitrage Flows: Running</li>
+                </ul>
+            </div>
+
+            <div class="border border-green-500 p-4 hover:bg-green-900/20 transition-all">
+                <div class="flex items-center gap-3 mb-4">
+                    <i data-lucide="shield"></i>
+                    <h2 class="font-bold">Asset Lockdown</h2>
+                </div>
+                <ul class="text-xs space-y-2">
+                    <li>- Pedicab/Rideshare: ST. PETE</li>
+                    <li>- RT-Agriculture: Zone 9b</li>
+                    <li>- Costa Rica Transition: SET</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="mt-12 pt-6 border-t border-green-500 text-center italic text-sm">
+            "Never do anything again unless you really want to."
+        </footer>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
